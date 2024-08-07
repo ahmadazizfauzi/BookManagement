@@ -7,7 +7,7 @@ Book Management is an application for managing books and their categories with a
 ## Features
 
 - **Book CRUD**: Add, edit, and delete books. Each book can be categorized according to the available categories.
-- **Category Management**: Add, edit, and delete book categories.
+- **Category Management**: Add, and delete book categories.
 - **Search**: Search for books based on title, author, publisher, and publication date.
 - **Responsive Design**: User interface designed to work well on various devices.
 
