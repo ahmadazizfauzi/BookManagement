@@ -55,8 +55,8 @@ Book Management is an application for managing books and their categories with a
 5. **Run Project in both terminal (fe and be)**
 
    ```bash
-   npm start
-   nodemon run app.js
+   npm run dev
+   npm run start
 
 
 Matursuwun and mari ngopi
