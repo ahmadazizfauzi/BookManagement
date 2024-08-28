@@ -33,6 +33,7 @@ const addBook = async (req, res) => {
     const { title, author, publisher, pages, publication_date, description, categories } = req.body;
     const id = await bookModel.createBook({ title, author, publisher, pages, publication_date, description });
 
+    // menmabahkan ke tabel book kategori kalau ada label yang diberikan
     if (categories && categories.length > 0) {
       for (const categoryId of categories) {
         await bookModel.addCategoryToBook(id, categoryId);
